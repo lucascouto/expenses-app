@@ -1,7 +1,12 @@
 import "./App.css";
+import ExpenseItem from "./components/ExpenseItem";
 
 function App() {
-  return <div></div>;
+  return (
+    <div>
+      <ExpenseItem />
+    </div>
+  );
 }
 
 export default App;
